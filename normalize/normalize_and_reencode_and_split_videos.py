@@ -4,7 +4,7 @@ normalize_and_reencode_and_split_videos.py
 
 - Re-encode tất cả video trong src_root (e.g. yoga/videos) về FPS=30, resolution=1280x720 (720p).
 - Lưu file đã encode vào output_root/{train|val|test}/videos/... giữ cấu trúc.
-- Sử dụng ffmpeg nếu có, fallback sang OpenCV nếu không có ffmpeg.
+- Sử dụng ffmpeg nếu có, fallback sang OpenCV nếu không có định dạng ffmpeg.
 """
 
 import os
